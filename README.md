@@ -13,7 +13,7 @@ Build a game using the concept of objects and classes. The main algorithm to imp
 ## Exceptions and Constraints:
 
 - Implementation of objects and classes are required
-- Existing code is not allowed to be modified, you are only to modify the `add_ingredients()` and `server_burger()` functions
+- Existing code is not allowed to be modified, you are only to modify the `add_ingredients()` and `serve_burger()` functions
 - Both `add_ingredients()` and `serve_burger()` functions must work with the `burger` self property 
 
 ## Sample Input
