@@ -5,7 +5,7 @@ class Burger:
     def __init__(self):
         self.burger = []
 
-    # <----- TO DO: finish this function that will take an ingredient as a string to be added t the burger ----->
+    # <----- TO DO: finish this function that will take an ingredient as a string to be added to the burger ----->
     def add_ingredients(self, ingredient):
         pass   
 
