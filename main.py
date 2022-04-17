@@ -6,7 +6,7 @@ class Burger:
         self.burger = []
 
     # <----- TO DO: finish this function that will take an ingredient as a string to be added to the burger ----->
-    def add_ingredients(self, ingredient):
+    def add_ingredient(self, ingredient):
         pass
 
     # <----- TO DO: finish this function to print the burger ----->
@@ -26,14 +26,14 @@ class Burger:
 
 def main():
     burger = Burger()
-    burger.add_ingredients('bun')
-    burger.add_ingredients('lettuce')
-    burger.add_ingredients('mayonnaise')
-    burger.add_ingredients('tomato')
-    burger.add_ingredients('patty')
-    burger.add_ingredients('cheese')
-    burger.add_ingredients('bun')
-    burger.add_ingredients('sesame seed')
+    burger.add_ingredient('bun')
+    burger.add_ingredient('lettuce')
+    burger.add_ingredient('mayonnaise')
+    burger.add_ingredient('tomato')
+    burger.add_ingredient('patty')
+    burger.add_ingredient('cheese')
+    burger.add_ingredient('bun')
+    burger.add_ingredient('sesame seed')
     topIngredient = burger.pop_ingredient()
     print("Ingredient on top: " + topIngredient)    
     burger.serve_burger()
