@@ -34,8 +34,8 @@ def main():
     burger.add_ingredient('cheese')
     burger.add_ingredient('bun')
     burger.add_ingredient('sesame seed')
-    topIngredient = burger.pop_ingredient()
-    print("Ingredient on top: " + topIngredient)    
+    top_ingredient = burger.pop_ingredient()
+    print("Ingredient on top: " + top_ingredient)    
     burger.serve_burger()
 
 if __name__ == "__main__":
